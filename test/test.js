@@ -1,3 +1,4 @@
-var two = require('../');
+var two = require('../'),
+    assert = require('assert');
 
-console.log( two() );
+assert.strictEqual(2, two());
